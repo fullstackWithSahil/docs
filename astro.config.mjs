@@ -26,6 +26,14 @@ export default defineConfig({
 						{ label: 'Leads api', slug: 'api/leads' },
 					],
 				},
+				{
+					label:"Blogging",
+					items:[
+						{ label: 'Overview', slug: 'blogging/getting-started' },
+						{ label: 'Concepts', slug: 'blogging/concepts' },
+						{ label: 'Markdown', slug: 'blogging/markdown' },
+					]
+				}
 			],
 		}),
 	],
