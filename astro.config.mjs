@@ -5,10 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
-	// redirects: {
-   	// 	'/': 'api/overview'
-  	// },
-	// site:"https://docs.buisnesstools.com",
+	site:"https://docs.buisnesstools.in",
 	integrations: [
 		starlight({
 			title: 'Buisnesstools Docs',
@@ -16,6 +13,14 @@ export default defineConfig({
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }
 			],
 			sidebar: [
+				{
+					label:"Uploading a course",
+					items:[
+						{ label: 'Getting started', slug: 'course/getting-started' },
+						{ label: 'Editing', slug: 'course/editing' },
+						{ label: 'Common questions', slug: 'course/questions' },
+					]
+				},
 				{
 					label: 'API docs',
 					items: [
