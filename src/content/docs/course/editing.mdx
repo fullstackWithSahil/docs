@@ -2,6 +2,8 @@
 title: Editing your course details or content
 description: This is a step by step guide on how to use buisnesstools course builder to update your existing course
 ---
+import { Aside } from '@astrojs/starlight/components';
+
 ## Editing an existing course
 1. **Navigate your main dashboard and locate the course you want to update.**
     ![dashboard](https://assets.buisnesstools.in/dashboard.png)
@@ -13,11 +15,40 @@ description: This is a step by step guide on how to use buisnesstools course bui
     ![course builder](https://assets.buisnesstools.in/course-builder.png)
 
 ## Adding new modules and lessons
+Adding new modules and lessons to an existing course is similar to how you add a module or a lesson to a new course.
+
+### Creating Modules
+
+Modules are the main sections of your course. They can be used to organize your content by topic, week, or any other logical grouping.
+
+1.  After creating your course, you'll be taken to the course structure page.
+    ![course builder](https://assets.buisnesstools.in/course-builder.png)
+
+2.  In the **Enter module name** field, type the title for your first module.
+3.  Click the **Add Module** button to create it.
+    ![add module](https://assets.buisnesstools.in/add-module.png)
+4.  Repeat these steps to add as many modules as you need. You can always come back and add more later.
+
+### Adding Lessons
+
+Lessons are the individual components of your course, such as video lectures, assignments, or quizzes. Lessons are nested within modules.
+
+1.  To add a lesson, first click on the module you want to add it to.
+2.  In the lesson builder section, fill in the following details:
+    * **Name:** Give your lesson a title (e.g., "Introduction to SEO").
+    * **Description:** This section is similar to the description of a youtube video. You can provide a summary of the lesson's content or provide links to external links that might want to share.
+    * **Lesson Number:** The builder automatically assigns a lesson number, but you can change this if needed to adjust the order.
+    * **Upload Thumbnail:** Upload an image to serve as a thumbnail for the lesson. All the major image formats are supported and you do not have to worry about optimizing it for the web we will convert it to webp and resize it for you.
+    * **Upload Video:** Upload your video content for the lesson. Only MP4 format is supported. You can either drag and drop your video file or click to select it from your computer.
+    <Aside type="caution">
+        Currently we only support .mp4 files and we have a file size limit of 3 GB. If you want to uplode videos larger that 3 GB contact support.
+    </Aside>
+
+3.  Once the video and thumbnail have uploaded, click the **Add Lesson** button.
+
 
 ## Changing the details of lessons
 If you want to change the name, description or lesson number you just have to change the already existing details in the builder and these fiels will grt updated when you click on upload course.
 
 ## Changing the video or thumbnail of an existing lesson
 If you want to change the thumbnail or video of a lesson you will have to delete the existing lesson,create a new lesson and uplode the new thumbnail or video. A confirmation message will appear to ensure you don't accidentally remove content Click on confirm if you want to change the video.
-
-## Changing the order on lessons
