@@ -39,6 +39,15 @@ export default defineConfig({
 						{ label: 'Markdown', slug: 'blogging/markdown' },
 					]
 				}
+				,{
+					label:"Payments",
+					items:[
+						{ label: 'Overview', slug: 'payments/getting-started' },
+						{ label: 'Dodo payments', slug: 'payments/dodo' },
+						{ label: 'Razorpay', slug: 'payments/razorpay' },
+						{ label: 'Troubleshoot', slug: 'payments/troubleshoot' },
+					]
+				}
 			],
 		}),
 	],
