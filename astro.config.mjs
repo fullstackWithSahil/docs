@@ -45,7 +45,7 @@ export default defineConfig({
 						{ label: 'Overview', slug: 'payments/getting-started' },
 						{ label: 'Dodo payments', slug: 'payments/dodo' },
 						{ label: 'Razorpay', slug: 'payments/razorpay' },
-						{ label: 'Troubleshoot', slug: 'payments/troubleshoot' },
+						// { label: 'Troubleshoot', slug: 'payments/troubleshoot' },
 					]
 				}
 			],

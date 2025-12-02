@@ -2,6 +2,8 @@
 title: Payment integrations in buisnesstools.in
 description: This is a guide to help you set up payment processing for your community using various payment gateways.
 ---
+import { Aside } from '@astrojs/starlight/components';
+
 
 # Payment Integration Guide
 
@@ -29,8 +31,9 @@ Both Razorpay and Dodo Payments offer two modes of operation:
 *   **Test Mode**: Use this mode during development and testing. It allows you to simulate transactions without using real money. You will use "Test Keys" for this.
 *   **Live Mode**: Use this mode when you are ready to accept real payments from customers. You will need to switch to "Live Keys" and ensure your account is fully activated.
 
-> [!IMPORTANT]
-> Always test your integration in **Test Mode** first before switching to **Live Mode**.
+<Aside>
+    Make sure you are in the **Live Mode** to get real payments.
+</Aside>
 
 ## Next Steps
 
