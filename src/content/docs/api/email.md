@@ -41,7 +41,7 @@ const axios = require('axios');
 
 async function sendEmail() {
   try {
-    const response = await axios.post('https://buisnesstools.com/api/v1/email/send', {
+    const response = await axios.post('https://buisnesstools.in/api/v1/email/send', {
       to: 'student@example.com',
       subject: 'Welcome to the course!',
       from: 'teacher@example.com',
@@ -67,7 +67,7 @@ async function sendEmail() {
 import requests
 
 def send_email():
-    url = 'https://buisnesstools.com/api/v1/email/send'
+    url = 'https://buisnesstools.in/api/v1/email/send'
     headers = {
         'Authorization': 'Bearer YOUR_API_KEY',
         'Content-Type': 'application/json'
@@ -91,7 +91,7 @@ def send_email():
 **cURL:**
 
 ```bash
-curl -X POST https://buisnesstools.com/api/v1/email/send \
+curl -X POST https://buisnesstools.in/api/v1/email/send \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -107,7 +107,7 @@ curl -X POST https://buisnesstools.com/api/v1/email/send \
 
 ```php
 <?php
-$url = 'https://buisnesstools.com/api/v1/email/send';
+$url = 'https://buisnesstools.in/api/v1/email/send';
 $data = [
     'to' => 'student@example.com',
     'subject' => 'Welcome to the course!',
@@ -183,7 +183,7 @@ const axios = require('axios');
 
 async function listTemplates() {
   try {
-    const response = await axios.get('https://buisnesstools.com/api/v1/email/template', {
+    const response = await axios.get('https://buisnesstools.in/api/v1/email/template', {
       headers: {
         'Authorization': 'Bearer YOUR_API_KEY'
       }
@@ -203,7 +203,7 @@ async function listTemplates() {
 import requests
 
 def list_templates():
-    url = 'https://buisnesstools.com/api/v1/email/template'
+    url = 'https://buisnesstools.in/api/v1/email/template'
     headers = {
         'Authorization': 'Bearer YOUR_API_KEY'
     }
@@ -222,7 +222,7 @@ def list_templates():
 **cURL:**
 
 ```bash
-curl -X GET https://buisnesstools.com/api/v1/email/templates \
+curl -X GET https://buisnesstools.in/api/v1/email/templates \
   -H "Authorization: Bearer YOUR_API_KEY"
 
 ```
@@ -268,7 +268,7 @@ const axios = require('axios');
 
 async function sendTemplateEmail() {
   try {
-    const response = await axios.post('https://buisnesstools.com/api/v1/email/send-template', {
+    const response = await axios.post('https://buisnesstools.in/api/v1/email/send-template', {
       to: 'student@example.com',
       template_id: 'template_123',
       variables: {
@@ -296,7 +296,7 @@ async function sendTemplateEmail() {
 import requests
 
 def send_template_email():
-    url = 'https://buisnesstools.com/api/v1/email/send-template'
+    url = 'https://buisnesstools.in/api/v1/email/send-template'
     headers = {
         'Authorization': 'Bearer YOUR_API_KEY',
         'Content-Type': 'application/json'
@@ -322,7 +322,7 @@ def send_template_email():
 **cURL:**
 
 ```bash
-curl -X POST https://buisnesstools.com/api/v1/email/send-template \
+curl -X POST https://buisnesstools.in/api/v1/email/send-template \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{

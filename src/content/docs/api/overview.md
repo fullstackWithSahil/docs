@@ -10,7 +10,7 @@ Welcome to the buisnesstools API documentation! This guide will help course crea
 
 All API requests must be authenticated using your API key. You will need to include your API key in the `Authorization` header of your requests using the `Bearer` token scheme.
 
-**Base URL:** `https://buisnesstools.com/`
+**Base URL:** `https://buisnesstools.in/`
 
 **Authentication Header Example:**
 

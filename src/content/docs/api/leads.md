@@ -49,7 +49,7 @@ const axios = require('axios');
 
 async function addLead() {
   try {
-    const response = await axios.post('https://buisnesstools.com/api/v1/leads', {
+    const response = await axios.post('https://buisnesstools.in/api/v1/leads', {
       name: 'John Doe',
       email: 'john@gmail.com',
       source: 'website',
@@ -75,7 +75,7 @@ async function addLead() {
 import requests
 
 def add_lead():
-    url = 'https://buisnesstools.com/api/v1/leads'
+    url = 'https://buisnesstools.in/api/v1/leads'
     headers = {
         'Authorization': 'Bearer YOUR_API_KEY',
         'Content-Type': 'application/json'
@@ -99,7 +99,7 @@ def add_lead():
 **cURL:**
 
 ```bash
-curl -X POST https://buisnesstools.com/api/v1/leads \
+curl -X POST https://buisnesstools.in/api/v1/leads \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -159,7 +159,7 @@ const axios = require('axios');
 
 async function updateLead(leadId) {
   try {
-    const response = await axios.put(`https://buisnesstools.com/api/v1/leads/${leadId}`, {
+    const response = await axios.put(`https://buisnesstools.in/api/v1/leads/${leadId}`, {
       email: 'john.new@gmail.com',
       note: 'Followed up today - very interested in React course'
     }, {
@@ -183,7 +183,7 @@ async function updateLead(leadId) {
 import requests
 
 def update_lead(lead_id):
-    url = f'https://buisnesstools.com/api/v1/leads/{lead_id}'
+    url = f'https://buisnesstools.in/api/v1/leads/{lead_id}'
     headers = {
         'Authorization': 'Bearer YOUR_API_KEY',
         'Content-Type': 'application/json'
@@ -205,7 +205,7 @@ def update_lead(lead_id):
 **cURL:**
 
 ```bash
-curl -X PUT https://buisnesstools.com/api/v1/leads/lead_12345 \
+curl -X PUT https://buisnesstools.in/api/v1/leads/lead_12345 \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -245,7 +245,7 @@ const axios = require('axios');
 
 async function deleteLead(leadId) {
   try {
-    const response = await axios.delete(`https://buisnesstools.com/api/v1/leads/${leadId}`, {
+    const response = await axios.delete(`https://buisnesstools.in/api/v1/leads/${leadId}`, {
       headers: {
         'Authorization': 'Bearer YOUR_API_KEY'
       }
@@ -265,7 +265,7 @@ async function deleteLead(leadId) {
 import requests
 
 def delete_lead(lead_id):
-    url = f'https://buisnesstools.com/api/v1/leads/{lead_id}'
+    url = f'https://buisnesstools.in/api/v1/leads/{lead_id}'
     headers = {
         'Authorization': 'Bearer YOUR_API_KEY'
     }
@@ -282,7 +282,7 @@ def delete_lead(lead_id):
 **cURL:**
 
 ```bash
-curl -X DELETE https://buisnesstools.com/api/v1/leads/lead_12345 \
+curl -X DELETE https://buisnesstools.in/api/v1/leads/lead_12345 \
   -H "Authorization: Bearer YOUR_API_KEY"
 
 ```
