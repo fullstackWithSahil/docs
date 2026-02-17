@@ -29,6 +29,7 @@ export default defineConfig({
 						{ label: 'Create keys', slug: 'api/create' },
 						{ label: 'Email api', slug: 'api/email' },
 						{ label: 'Leads api', slug: 'api/leads' },
+						{ label: 'Common errors', slug: 'api/errors' },
 					],
 				},
 				{
