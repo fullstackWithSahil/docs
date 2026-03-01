@@ -21,6 +21,12 @@ export default defineConfig({
 						{ label: 'Common questions', slug: 'course/questions' },
 					]
 				},
+                {
+                    label:"Email templates",
+                    items:[
+                        { label: 'Getting started', slug: 'email/getting-started' },
+                    ]
+                },
 				{
 					label: 'API docs',
 					items: [
